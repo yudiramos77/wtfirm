@@ -4134,7 +4134,7 @@ em {
     transition: all 0.2s ease-in-out;
 }
 .horizontal .wpcf7 input[type=text]:focus,.horizontal .wpcf7 input[type=email]:focus {
-     border-bottom: 1px solid #1c46f2!important;
+     border-bottom: 1px solid #1ba2e1!important;
       transition: all 0.2s ease-in-out;
 }
 .horizontal .wpcf7 input[type=text]:focus,.horizontal .wpcf7 input[type=email]:focus {
