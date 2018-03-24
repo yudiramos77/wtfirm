@@ -479,6 +479,14 @@ a:hover {
     margin-right: 15px;
 }
 
+.bi-icon img{
+	width: 70px;
+    margin: 25px 25px 35px;
+}
+.bi-icon{
+	text-align: center;
+}
+
 /* 6.1. Preloader +++++++++++++++++++++++++++++++++++++++++++++ */
 .loading {
 	width: 100%;
@@ -883,6 +891,7 @@ body.notMobile.fakeMobile .dropdown-submenu>a:after{
 #hgr_top_navbar_extras{
 	display:block;
 	float:right;
+	display: none;
 }
 
 
