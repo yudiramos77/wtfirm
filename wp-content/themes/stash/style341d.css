@@ -891,9 +891,13 @@ body.notMobile.fakeMobile .dropdown-submenu>a:after{
 #hgr_top_navbar_extras{
 	display:block;
 	float:right;
-	display: none;
+	
 }
 
+#hgr_top_navbar_extras .fssearch{
+	display: none;
+	
+}
 
 
 
