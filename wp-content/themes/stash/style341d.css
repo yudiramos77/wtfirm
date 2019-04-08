@@ -731,7 +731,7 @@ body.notMobile.fakeMobile .dropdown-submenu>a:after{
 
 .fakeMobile #hgr_top_navbar_container,
 .isMobile #hgr_top_navbar_container{
-	padding:0!important;
+	/* padding:0!important; */
 }
 
 .fakeMobile #hgr_top_navbar_extras,
