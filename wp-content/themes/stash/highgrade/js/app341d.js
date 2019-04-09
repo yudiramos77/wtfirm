@@ -61,11 +61,16 @@
 	});
 	
 	// Onepage navigation, front page or blog section
-	if(php_variables.is_front_page ==='true') {
-		jQuery("ul.main_navbar li.menu-item a[href*='#']").on( "click", function() {
+	if(true) {
+		jQuery("ul.main_navbar li.menu-item a[href*='#'], .first_level_menu_link[href*='#']").on( "click", function() {
 			jQuery("#hgr-navbar-collapse-1").removeClass("in");
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 			&& location.hostname == this.hostname) {
+			  // close mobile menu when click on menu links
+			  if (jQuery(this)[0].className == 'first_level_menu_link'){
+				$('.cd-primary-nav-trigger').trigger('click');
+			  }
+
 			  var $target = jQuery(this.hash);
 			  var $selector = $target.selector;
 			  $target = $target.length && $target || jQuery("[name=' + this.hash.slice(1) +']");
